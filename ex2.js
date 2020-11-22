@@ -9,7 +9,7 @@ const compile = (str) => {
     }
 
     for (let i = 0; i < str.length; i++) {
-        //Si el caracter es paréntesis de entrada va al acumulador
+        //Si el caracter es paréntesis va al acumulador
 
         if (str[i] === '(' || str[i] === '{' || str[i] === '[') {
             accumulator.push(str[i]);
